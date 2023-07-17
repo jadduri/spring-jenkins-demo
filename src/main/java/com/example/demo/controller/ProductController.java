@@ -19,5 +19,6 @@ public List<Product> getProduct()
 List<Product> products = productService.findAll();
 //returns the product list
 return products;
+
 }
 }
